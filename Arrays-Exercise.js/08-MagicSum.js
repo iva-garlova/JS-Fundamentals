@@ -1,17 +1,17 @@
-function magicSum(arr, num){
+function magicSum(arr, num) {
 
-    for(let i = 0; i < arr.length; i++){
+    for (let i = 0; i < arr.length; i++) {
         let firstNum = arr[i];
-    for(let k = i + 1; k < arr.length; k++){
-        let secondNum = arr[k];
-     if(firstNum + secondNum == num){
-        console.log(`${firstNum} ${secondNum}`);
-     }
+        for (let k = i + 1; k < arr.length; k++) {
+            let secondNum = arr[k];
+            if (firstNum + secondNum == num) {
+                console.log(`${firstNum} ${secondNum}`);
+            }
 
-    }
+        }
 
 
-    
+
     }
 
 }

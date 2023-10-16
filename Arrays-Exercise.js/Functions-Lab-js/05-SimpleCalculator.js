@@ -14,4 +14,4 @@ function simpleCalculator(num1, num2, operator){
      return result
 
 }
-//simpleCalculator(5, 5,'multiply');
+simpleCalculator(5, 5,'multiply');
